@@ -15,21 +15,29 @@ class HeroesTableViewController:UIViewController,UITableViewDelegate,UITableView
     @IBOutlet weak var tableView: UITableView!
     
     // MARK: Properties
-    
+    var heroes = Fetcher.shared.loadHeroes()
     
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+       // print(self.heroes)
         
     }
     
     // MARK: Datasources
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return self.heroes.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HeroViewCell")!
+        let hero = self.heroes[(indexPath as NSIndexPath).row]
+        cell.textLabel?.text = hero.heroName
+        if let detailLabel = cell.detailTextLabel{
+            detailLabel.text = hero.personName
+        }
         return cell
     }
     

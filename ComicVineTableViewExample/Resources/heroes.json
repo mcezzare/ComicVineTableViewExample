@@ -1,0 +1,233 @@
+[
+    {
+        "id": "1",
+        "person_name": "James Logan",
+        "hero_name": "Wolverine",
+        "profile_url": "/wolverine/4005-1440/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/11125/111253019/6532464-return_of_wolverine_vol_1_2_textless.jpg",
+        "basic_info": "A long-lived mutant with the rage of a beast and the soul of a Samurai, James \"Logan\" Howlett's once mysterious past is filled with blood, war and betrayal. Possessing an accelerated healing factor, keenly enhanced senses and bone claws in each hand (along with his skeleton) that are coated in adamantium; Wolverine is, without question, the ultimate weapon."
+    },
+    {
+        "id": "2",
+        "person_name": "Peter Parker",
+        "hero_name": "Spider-Man",
+        "profile_url": "/spider-man/4005-1443/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/8/80103/6197311-c6d76a022f2dcf57c29e2ef87a3c7d47.jpg",
+        "basic_info": "Peter Parker was bitten by a radioactive spider as a teenager, granting him spider-like powers. After the death of his Uncle Ben, which he could have prevented, Peter learned that \"with great power, comes great responsibility.\" Swearing to always protect the innocent from harm, Peter Parker became the Amazing Spider-Man!"
+    },
+    {
+        "id": "3",
+        "person_name": "Thor",
+        "hero_name": "Thor",
+        "profile_url": "/thor/4005-2268/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/10/100647/6436253-thor2.jpg",
+        "basic_info": "Thor is the Asgardian God of Thunder, and the son of the All-Father of Asgard Odin and the Elder Earth-Goddess Gaea. Combining the powers of Asgard and Midgard (Earth), Thor is arguably the greatest defender of both worlds. Armed with his enchanted Uru hammer Mjolnir, which can only be lifted by those who are worthy, Thor is the mightiest warrior in all of Asgard. A staunch ally for good and one of the strongest beings on Earth, Thor is also a founding member of the Avengers."
+    },
+    {
+        "id": "4",
+        "person_name": "Tony Stark",
+        "hero_name": "Iron Man",
+        "profile_url": "/iron-man/4005-1455/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/3/31666/4956367-invim2015001-maleevvar-d8a38.jpg",
+        "basic_info": "Tony Stark was the arrogant son of wealthy, weapon manufacturer Howard Stark. Tony cared only about himself, but he would have a change of heart after he was kidnapped by terrorists and gravely injured. Pressured to create a weapon of mass destruction, Stark instead created a suit of armor powerful enough for him to escape. Tony uses his vast resources and intellect to make the world a better place as the invincible Iron Man. Stark's super hero identity led him to become a founding member of the Avengers."
+    },
+    {
+        "id": "5",
+        "person_name": "Robert Bruce Banner",
+        "hero_name": "Hulk",
+        "profile_url": "/hulk/4005-2267/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/14/140903/4127149-11.jpg",
+        "basic_info": "After being bombarded with a massive dose of gamma radiation while saving a young man's life during the testing of an experimental bomb, Dr. Robert Bruce Banner was transformed into the Incredible Hulk: a green behemoth who is the living personification of rage and pure physical strength."
+    },
+    {
+        "id": "6",
+        "person_name": "Steve Rogers",
+        "hero_name": "Captain America",
+        "profile_url": "/captain-america/4005-1442/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/13/132327/6421118-captain_america_2_by_leinilyu-d4jupy4.jpg",
+        "basic_info": "During World War II, Steve Rogers volunteered to receive the experimental Super-Soldier Serum. Enhanced to the pinnacle of human physical potential and armed with an unbreakable shield, he became Captain America. After a failed mission left him encased in ice for decades, he was found and revived by the Avengers. Later joining their ranks and eventually becoming the team's leader."
+    },
+    {
+        "id": "8",
+        "person_name": "Matt Murdock",
+        "hero_name": "Daredevil",
+        "profile_url": "/daredevil/4005-24694/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/6/68065/6335305-5934933145-DYb8d.jpg",
+        "basic_info": "As a child, Matt Murdock was blinded by radioactive waste while trying to save an elderly stranger about to get hit by a truck carrying the dangerous material. In turn, his other senses were heightened to superhuman sharpness and he gained a form of \"radar sense\". By day, he is a successful trial lawyer; but by night, he guards Hell's Kitchen as Daredevil: the Man Without Fear."
+    },
+    {
+        "id": "9",
+        "person_name": "Frank Castle",
+        "hero_name": "Punisher",
+        "profile_url": "/punisher/4005-1525/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/11125/111253019/6465266-punisher_vol_12_1_textless.jpg",
+        "basic_info": "After his family was killed by the mob, U.S. Marine Special Forces veteran Frank Castle vowed to avenge their deaths and became a one-man army in his personal war against the criminal underworld. With a distinct death's head skull adorning his chest, Frank Castle became the vigilante known as the Punisher."
+    },
+    {
+        "id": "10",
+        "person_name": "Wade Wilson",
+        "hero_name": "Deadpool",
+        "profile_url": "/deadpool/4005-7606/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/3/31666/4943681-dpool2015007-cov-bec9c.jpg",
+        "basic_info": "Wade Wilson is a former test subject of the Weapon X program, where he received his regenerative healing factor through the scientific experiments conducted upon him. Deadpool's powers and personality traits combine to make a wild, mentally unstable, and unpredictable mercenary. Deadpool has been a member of X-Force and the Thunderbolts, and a self-professed member of the X-Men and the Avengers. The \"Merc with a Mouth\" is infamous for breaking the fourth wall."
+    },
+    {
+        "id": "11",
+        "person_name": "Norrin Radd",
+        "hero_name": "Silver Surfer",
+        "profile_url": "/silver-surfer/4005-2502/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/3/31666/3627093-tumblr_mwhlifyyfk1spk5yeo1_1280.jpg",
+        "basic_info": "Norrin Radd of Zenn-La is the mighty herald of Galactus, the devourer of worlds. Gifted with the Power Cosmic and a trusty board that's faster than light speed which he can summon at will whenever needed, Norrin Radd travels to distant stars and throughout the universe as the Silver Surfer."
+    },
+    {
+        "id": "12",
+        "person_name": "Gambit",
+        "hero_name": "Gambit",
+        "profile_url": "/gambit/4005-1499/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/11126/111269625/6182822-gc.jpg",
+        "basic_info": "A charming and master thief who joined the X-Men, Gambit possesses the mutant ability to charge inanimate objects with kinetic energy which causes them to explode (in fact, his signature move is throwing kinetically-charged playing cards at his opponents). Gambit is also extremely agile and hypnotically persuasive because of his powers."
+    },
+    {
+        "id": "13",
+        "person_name": "Scott Summers",
+        "hero_name": "Cyclops",
+        "profile_url": "/cyclops/4005-1459/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/7/78977/6730574-cyclops%20uncanny%20are%20back%20avy.jpg",
+        "basic_info": "The first X-Man, Scott Summers possesses the mutant ability to draw ambient energy from another dimension through his eyes which are actually portals to the dimension, he usually channels this energy into concussive force blasts. He is visually distinctive for the ruby quartz visor he wears to control his devastating power. A born leader, Cyclops succeeded his mentor Professor X to command the X-Men."
+    },
+    {
+        "id": "14",
+        "person_name": "Reed Richards",
+        "hero_name": "Mr. Fantastic",
+        "profile_url": "/mr-fantastic/4005-2151/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/10/100647/4240402-ff0643-samnee-var-2181a.jpg",
+        "basic_info": "Reed Richards, also known as Mr. Fantastic, is the leader of the Fantastic Four. He can stretch his body to great distances due to his exposure to cosmic rays while in space. He is also considered to be one of the smartest men alive."
+    },
+    {
+        "id": "15",
+        "person_name": "Kurt Wagner",
+        "hero_name": "Nightcrawler",
+        "profile_url": "/nightcrawler/4005-1461/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/10/100647/6436227-x-men%20red%202.jpg",
+        "basic_info": "Kurt Wagner is a prominent member of the X-Men and former member and leader of Excalibur. He possessed the Neyaphemian ability of teleportation, as well as incredible agility, wall scaling and a prehensile tail. Nightcrawler is a devout Catholic, contrasting his demonic appearance. He is a highly skilled swordsmen and former circus acrobat."
+    },
+    {
+        "id": "16",
+        "person_name": "Nicholas Joseph Fury",
+        "hero_name": "Nick Fury",
+        "profile_url": "/nick-fury/4005-3202/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/10/100647/4076005-untitled-2.jpg",
+        "basic_info": "Nicholas Joseph Fury served in World War II as the leader of the Howling Commandos. He later became an agent, and eventually director, of S.H.I.E.L.D. Fury is one of the greatest strategic minds in the world, a born leader and a master of espionage. He currently serves as a replacement Watcher."
+    },
+    {
+        "id": "17",
+        "person_name": "Johnny Storm",
+        "hero_name": "Human Torch",
+        "profile_url": "/human-torch/4005-2120/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/10/100647/4531254-1b0a9cbfa1742bdebed2449fc7a3d63e.jpg",
+        "basic_info": "The second most powerful member of the Fantastic Four and the brother of Sue Richards. Due to an accident caused by cosmic radiation in space, he can manipulate fire, turn his entire body into it and fly. While Johnny is known for his impetuous and sometimes reckless nature, he is also a loyal friend and fearless hero."
+    },
+    {
+        "id": "18",
+        "person_name": "Robert ''Bobby'' Louis Drake",
+        "hero_name": "Iceman",
+        "profile_url": "/iceman/4005-1464/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/11112/111126675/5889261-iceman.jpg",
+        "basic_info": "The youngest member of the original X-Men. Bobby is an Omega-level mutant, although it took some help from Emma Frost to realize this. Bobby's control of ice is vast; he can create shields, clones, spikes, slides and also freeze others. He currently teaches at the Jean Grey School for Higher Learning."
+    },
+    {
+        "id": "19",
+        "person_name": "Charles Xavier",
+        "hero_name": "Professor X",
+        "profile_url": "/professor-x/4005-1505/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/9/96747/6825708-sinpa008_2.jpg",
+        "basic_info": "Professor Charles Xavier is the creator of the X-Men and founder of the Xavier School for Gifted Youngsters. His dream of peaceful coexistence between mutants and humanity has long been the driving force for the X-Men. An immensely powerful telepath and scientific genius, Xavier was among the world's greatest masterminds. Killed at the hands of a Phoenix crazed Cyclops, Xavier's memory and dream still remains and motivates his X-Men to keep fighting for a world that fears and hates them."
+    },
+    {
+        "id": "20",
+        "person_name": "Piotr Rasputin",
+        "hero_name": "Colossus",
+        "profile_url": "/colossus/4005-1460/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/11130/111300304/5810917-image.jpeg",
+        "basic_info": "Piotr Rasputin is a Russian mutant who possesses the ability to transform his body into organic steel, giving him immense strength and durability. Colossus is among the physically strongest X-Men, and is a talented artist."
+    },
+    {
+        "id": "21",
+        "person_name": "James Buchanan Barnes",
+        "hero_name": "Bucky Barnes",
+        "profile_url": "/bucky-barnes/4005-40470/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/14/149570/4066832-image-93.jpg",
+        "basic_info": "Believed dead near the end of World War II only to have been found and brainwashed by the Soviets for the next 50 years, Captain America's former sidekick now continues to defend his country from the shadows against those who would threaten it as legendary spy and assassin, the Winter Soldier. He became the new Captain America to honor his friend Steve and he joined the Avengers. When Steve returned as Captain America, Bucky took on the identity of the Winter Soldier once again."
+    },
+    {
+        "id": "22",
+        "person_name": "Stephen Strange",
+        "hero_name": "Doctor Strange",
+        "profile_url": "/doctor-strange/4005-1456/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/3/31666/4924093-drs2015002rossvariant-d0946.jpg",
+        "basic_info": "Dr. Stephen Strange was once a gifted but egotistical surgeon who sought out the Ancient One to heal his hands after they were wounded in a car accident. Instead, the Ancient One trained him to become Master of the Mystic Arts and the Sorcerer Supreme of Earth."
+    },
+    {
+        "id": "23",
+        "person_name": "Ororo Munroe",
+        "hero_name": "Storm",
+        "profile_url": "/storm/4005-1444/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/9/96747/6939889-fearless2019002-cov.jpg",
+        "basic_info": "Ororo Munroe, also known as Storm,the X-men's resident weather witch is ranked among the most powerful mutants on Earth. Gifted with the power to manipulate the phenomenon from which she takes her codename she is able to incite all forms of precipitation,summon lightning and other atmospheric phenomena from a benign sky, create palm sized storms to water her plants or hemisphere sized monsters in the blink of an eye while fighting to safeguard the rights of mutants and humanity as a whole."
+    },
+    {
+        "id": "24",
+        "person_name": "Jean Grey",
+        "hero_name": "Jean Grey",
+        "profile_url": "/jean-grey/4005-3552/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/14/148344/6168712-x-men%20red.jpg",
+        "basic_info": "Jean Grey was one of the five original X-Men. An omega-level mutant telekinetic and telepath, Jean has gained near limitless powers as a recurrent host of the Phoenix Force. She is known for her many returns from death and as the deceased wife of Cyclops."
+    },
+    {
+        "id": "25",
+        "person_name": "Anna-Marie",
+        "hero_name": "Rogue",
+        "profile_url": "/rogue/4005-1446/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/9/96747/6827345-waruncannyxmen2.jpg",
+        "basic_info": "Once a member of the Brotherhood of Evil Mutants, Rogue has since become a veteran member of the X-Men. Born with the ability to absorb and sometimes also remove the memories, physical strength, and superpowers of anyone she touches or being near them."
+    },
+    {
+        "id": "26",
+        "person_name": "Elektra",
+        "hero_name": "Elektra",
+        "profile_url": "/elektra/4005-1802/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/3/31666/5545375-elektra2017001-covcol.jpg",
+        "basic_info": "The lethal scarlet assassin. Daredevil's most fearsome enemy as well as his former lover and most renowned as being the greatest assassin in the world."
+    },
+    {
+        "id": "27",
+        "person_name": "Emma Grace Frost",
+        "hero_name": "Emma Frost",
+        "profile_url": "/emma-frost/4005-1457/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/11114/111147698/6850239-uncx2018019-cov.jpg",
+        "basic_info": "The former White Queen of the Hellfire Club, Emma Frost is a powerful mutant telepath who can transform herself into organic diamond. She has become an prominent member among the X-Men. A gifted teacher, Emma is renowned for her beauty, wit, and revealing attire."
+    },
+    {
+        "id": "28",
+        "person_name": "Ben Grimm",
+        "hero_name": "Thing",
+        "profile_url": "/thing/4005-2114/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/14/149570/4171373-4171069-fanfour015_char_var.jpg",
+        "basic_info": "Ben Grimm, better known as the Thing, is the original quintessential tough-guy of the Marvel Universe. But, because of his transformation, he's also the tragic member of the Fantastic Four. Ben was an ace test-pilot until exposure to intense cosmic radiation mutated him into a rock-skinned monster with immense superhuman strength. Ben's exterior is much harder than stone which gives him a rather gruff disposition; but deep down, he has a heart of gold."
+    },
+    {
+        "id": "32",
+        "person_name": "Namor",
+        "hero_name": "Namor",
+        "profile_url": "/namor/4005-1476/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/7/78977/6641517-namor%20new.jpg",
+        "basic_info": "Namor the Sub-Mariner is the ruler of undersea Atlantis. The offspring of a sea captain and an Atlantean princess, he has been both a hero and a villain to the surface world. Namor is one of Marvel's oldest published characters with his origins in the Golden Age of comics."
+    },
+    {
+        "id": "33",
+        "person_name": "T'Challa",
+        "hero_name": "Black Panther",
+        "profile_url": "/black-panther/4005-1477/",
+        "picture_url": "https://static.comicvine.com/uploads/scale_small/3/31666/5011137-blap2016001-cov-d6d2a.jpg",
+        "basic_info": "T'Challa is the Black Panther, king of Wakanda, one of the most technologically advanced nations on Earth. He is among the top intellects and martial artists of the world, a veteran Avenger, and a member of the Illuminati. Using his powers and abilities, he has pledged his fortune, powers, and life to the service of all mankind."
+    }]

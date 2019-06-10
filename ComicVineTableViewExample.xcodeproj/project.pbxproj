@@ -12,6 +12,8 @@
 		25CE8E6622AE846F00BE510C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CE8E6422AE846F00BE510C /* Main.storyboard */; };
 		25CE8E6822AE847000BE510C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25CE8E6722AE847000BE510C /* Assets.xcassets */; };
 		25CE8E6B22AE847000BE510C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25CE8E6922AE847000BE510C /* LaunchScreen.storyboard */; };
+		25CE8E7622AE851C00BE510C /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE8E7522AE851C00BE510C /* Hero.swift */; };
+		25CE8E7922AE85B100BE510C /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 25CE8E7822AE85B100BE510C /* heroes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		25CE8E6722AE847000BE510C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25CE8E6A22AE847000BE510C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25CE8E6C22AE847000BE510C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25CE8E7522AE851C00BE510C /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		25CE8E7822AE85B100BE510C /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		25CE8E5F22AE846F00BE510C /* ComicVineTableViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				25CE8E7722AE85A000BE510C /* Resources */,
 				25CE8E7422AE84A500BE510C /* Views */,
 				25CE8E7322AE849A00BE510C /* Controllers */,
 				25CE8E7222AE848F00BE510C /* Models */,
@@ -70,6 +75,7 @@
 		25CE8E7222AE848F00BE510C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				25CE8E7522AE851C00BE510C /* Hero.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -86,6 +92,14 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		25CE8E7722AE85A000BE510C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25CE8E7822AE85B100BE510C /* heroes.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25CE8E6B22AE847000BE510C /* LaunchScreen.storyboard in Resources */,
+				25CE8E7922AE85B100BE510C /* heroes.json in Resources */,
 				25CE8E6822AE847000BE510C /* Assets.xcassets in Resources */,
 				25CE8E6622AE846F00BE510C /* Main.storyboard in Resources */,
 			);
@@ -161,6 +176,7 @@
 			files = (
 				25CE8E6322AE846F00BE510C /* ViewController.swift in Sources */,
 				25CE8E6122AE846F00BE510C /* AppDelegate.swift in Sources */,
+				25CE8E7622AE851C00BE510C /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

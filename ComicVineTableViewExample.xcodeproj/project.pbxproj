@@ -54,6 +54,9 @@
 		25CE8E5F22AE846F00BE510C /* ComicVineTableViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				25CE8E7422AE84A500BE510C /* Views */,
+				25CE8E7322AE849A00BE510C /* Controllers */,
+				25CE8E7222AE848F00BE510C /* Models */,
 				25CE8E6022AE846F00BE510C /* AppDelegate.swift */,
 				25CE8E6222AE846F00BE510C /* ViewController.swift */,
 				25CE8E6422AE846F00BE510C /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				25CE8E6C22AE847000BE510C /* Info.plist */,
 			);
 			path = ComicVineTableViewExample;
+			sourceTree = "<group>";
+		};
+		25CE8E7222AE848F00BE510C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25CE8E7322AE849A00BE510C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25CE8E7422AE84A500BE510C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

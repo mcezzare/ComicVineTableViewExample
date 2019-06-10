@@ -9,12 +9,31 @@
 import UIKit
 
 class HeroDetailViewController: UIViewController {
-
+    
+    // MARK: Outlets
+    @IBOutlet weak var imageView:UIImageView!
+    @IBOutlet weak var heroNameLabel:UILabel!
+    @IBOutlet weak var personNameLabel:UILabel!
+    @IBOutlet weak var basicInfoTextView:UITextView!
+    @IBOutlet weak var buttonGoToWebSite:UIButton!
+    
+    // MARK: Properties
+    var hero:Hero!
+    
+    // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        configureUI()
     }
-
-
+    
+    func configureUI(){
+        self.heroNameLabel.text =  self.hero.heroName
+        self.personNameLabel.text = self.hero.personName
+        self.basicInfoTextView.text = self.hero.basicInfo
+        //TODO: Load Image
+    }
+    
+    
+    
 }
 

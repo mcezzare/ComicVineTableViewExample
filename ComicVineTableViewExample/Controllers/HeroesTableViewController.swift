@@ -32,12 +32,15 @@ class HeroesTableViewController:UIViewController,UITableViewDelegate,UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "HeroViewCell")!
-        let hero = self.heroes[(indexPath as NSIndexPath).row]
-        cell.textLabel?.text = hero.heroName
-        if let detailLabel = cell.detailTextLabel{
-            detailLabel.text = hero.personName
-        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: HeroViewCell.identifier , for:indexPath) as! HeroViewCell
+        cell.configWith(self.heroes[(indexPath as NSIndexPath).row])
+//        let hero = self.heroes[(indexPath as NSIndexPath).row]
+        
+//        cell.textLabel?.text = hero.heroName
+//        if let detailLabel = cell.detailTextLabel{
+//            detailLabel.text = hero.personName
+//        }
+        
         return cell
     }
     

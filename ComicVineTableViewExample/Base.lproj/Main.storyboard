@@ -55,7 +55,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HeroViewCell" textLabel="gD4-qZ-ASN" detailTextLabel="TpX-1g-T7b" style="IBUITableViewCellStyleSubtitle" id="vVf-5Q-bdb">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HeroViewCell" textLabel="gD4-qZ-ASN" detailTextLabel="TpX-1g-T7b" style="IBUITableViewCellStyleSubtitle" id="vVf-5Q-bdb" customClass="HeroViewCell" customModule="ComicVineTableViewExample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vVf-5Q-bdb" id="ZYc-dw-03d">
@@ -78,6 +78,10 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="subTitleLabel" destination="TpX-1g-T7b" id="9XK-bz-zct"/>
+                                            <outlet property="titleLabel" destination="gD4-qZ-ASN" id="QJF-Aq-vlI"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

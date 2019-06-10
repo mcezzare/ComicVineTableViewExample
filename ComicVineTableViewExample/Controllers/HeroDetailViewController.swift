@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HeroDetailViewController.swift
 //  ComicVineTableViewExample
 //
 //  Created by Mario Cezzare on 10/06/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HeroDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

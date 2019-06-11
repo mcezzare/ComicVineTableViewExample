@@ -9,15 +9,19 @@
 import UIKit
 
 class HeroViewCell: UITableViewCell {
-    
+
+    // MARK: - Properties
     static let identifier = "HeroViewCell"
-    
+
+    // MARK: - Outlets
     @IBOutlet weak var titleLabel:UILabel!
     @IBOutlet weak var subTitleLabel:UILabel!
     
+    // MARK: - Functions
     func configWith(_ info:Hero ){
         titleLabel.text = info.heroName
         subTitleLabel.text = info.personName
+        //TODO: Refactor to use the shared function with closure to download the image
         getImage(urlPicture: info.pictureUrl)
     }
     

@@ -10,6 +10,15 @@ import UIKit
 
 extension UIViewController {
     
+    // MARK: Functions
+    
+    
+    /// Show an Alert to user
+    ///
+    /// - Parameters:
+    ///   - title: title of alert
+    ///   - message: description text
+    ///   - action: closure if needed
     func showAlert(title:String, message:String, action: (() -> Void)? = nil ){
         let alertViewController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alertViewController.addAction(UIAlertAction(title: "OK", style: .default, handler: { (alertAction) in
@@ -18,6 +27,10 @@ extension UIViewController {
         self.present(alertViewController, animated: true, completion: nil)
     }
     
+    
+    /// Launch safari with a valid Link
+    ///
+    /// - Parameter url: url string to open
     func openWithSafari(_ url:String){
         guard let url = URL(string: url), UIApplication.shared.canOpenURL(url) else {
             showAlert(title: "Erro", message: "Url Inválida")
@@ -26,22 +39,19 @@ extension UIViewController {
         UIApplication.shared.open(url, options: [:])
     }
     
-//    func getImageData(urlPicture:String, completion: @escaping ( _ result: VoidResult, _ image: UIImage?) -> () ) {
-//        let url = URL(string: urlPicture)
-//        let data = try? Data(contentsOf: url!)
-//        if let imageData = data {
-//            let image = UIImage(data: imageData)
-//            completion(.success,image)
-//        }
-//        let userInfo = [NSLocalizedDescriptionKey : "Erro ao baixar a imagem"]
-//        let error = NSError(domain: "", code: 1, userInfo: userInfo)
-//        completion(.failure(error) , nil)
-//        
-//    }
+    
+    /// Download and image from remote host
+    ///
+    /// - Parameters:
+    ///   - url: url to use
+    ///   - completion: closure to run after download, normaly used with GCD
+    func loadImage(url:String, completion : @escaping(_ image: UIImage ) -> Void){
+        let url = URL(string: url)
+        let data = try? Data(contentsOf: url!)
+        if let imageData = data {
+            let image = UIImage(data: imageData)
+            completion(image!)
+        }
+    }
     
 }
-//
-//enum VoidResult {
-//    case success
-//    case failure(NSError)
-//}

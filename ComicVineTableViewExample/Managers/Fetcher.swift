@@ -10,9 +10,14 @@ import Foundation
 
 class Fetcher {
     
-    // MARK: Singleton
+    // MARK: - Singleton
     static let shared = Fetcher()
+    
+    // MARK: - Properties
     static let baseUrlImages = "https://comicvine.gamespot.com"
+    
+    
+    // MARK: - Functions
     
     /// Loads data from local json file
     ///

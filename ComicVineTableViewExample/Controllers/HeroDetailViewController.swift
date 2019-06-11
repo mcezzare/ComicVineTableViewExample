@@ -10,42 +10,45 @@ import UIKit
 
 class HeroDetailViewController: UIViewController {
     
-    // MARK: Outlets
+    // MARK: - Outlets
     @IBOutlet weak var imageView:UIImageView!
     @IBOutlet weak var heroNameLabel:UILabel!
     @IBOutlet weak var personNameLabel:UILabel!
     @IBOutlet weak var basicInfoTextView:UITextView!
     @IBOutlet weak var buttonGoToWebSite:UIButton!
     
-    // MARK: Properties
+    // MARK: - Properties
     var hero:Hero!
     
-    // MARK: Life cycle
+    // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
     }
     
-    func configureUI(){
-        self.heroNameLabel.text =  self.hero.heroName
-        self.personNameLabel.text = self.hero.personName
-        self.basicInfoTextView.text = self.hero.basicInfo
-        getImage(urlPicture: self.hero.pictureUrl)
-    }
-    
-    func getImage(urlPicture:String){
-        let url = URL(string: urlPicture)
-        let data = try? Data(contentsOf: url!)
-        if let imageData = data {
-            let image = UIImage(data: imageData)
-            self.imageView!.image = image
-        }
-    }
-    
+    // MARK: - Actions
     @IBAction func buttonPressed(_ sender: Any){
         let fullURL = "\(Fetcher.baseUrlImages)\(self.hero.profileUrl)"
         openWithSafari(fullURL)
     }
+    
+    // MARK: - Helpers
+    
+    /// Configure UI Itens
+    func configureUI(){
+        self.heroNameLabel.text =  self.hero.heroName
+        self.personNameLabel.text = self.hero.personName
+        self.basicInfoTextView.text = self.hero.basicInfo
+        //        getImage(urlPicture: self.hero.pictureUrl)
+        DispatchQueue.main.async {
+            self.loadImage(url: self.hero.pictureUrl) { (image) in
+                
+                self.imageView.image = image
+            }
+            
+        }
+    }
+    
     
 }
 

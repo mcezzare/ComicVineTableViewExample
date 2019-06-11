@@ -19,7 +19,6 @@ class HeroViewCell: UITableViewCell {
         titleLabel.text = info.heroName
         subTitleLabel.text = info.personName
         getImage(urlPicture: info.pictureUrl)
-        self.imageView?.sizeToFit()
     }
     
     func getImage(urlPicture:String){

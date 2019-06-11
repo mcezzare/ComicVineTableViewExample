@@ -12,7 +12,7 @@ class Fetcher {
     
     // MARK: Singleton
     static let shared = Fetcher()
-    
+    static let baseUrlImages = "https://comicvine.gamespot.com"
     
     /// Loads data from local json file
     ///

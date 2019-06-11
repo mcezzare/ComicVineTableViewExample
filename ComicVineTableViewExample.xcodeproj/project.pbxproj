@@ -17,6 +17,7 @@
 		25CE8E7B22AE87E400BE510C /* HeroesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE8E7A22AE87E400BE510C /* HeroesTableViewController.swift */; };
 		25CE8E7E22AEB90300BE510C /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE8E7D22AEB90300BE510C /* Fetcher.swift */; };
 		25CE8E8022AF033F00BE510C /* HeroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE8E7F22AF033F00BE510C /* HeroViewCell.swift */; };
+		25CE8E8322AF247F00BE510C /* ViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE8E8222AF247F00BE510C /* ViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		25CE8E7A22AE87E400BE510C /* HeroesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesTableViewController.swift; sourceTree = "<group>"; };
 		25CE8E7D22AEB90300BE510C /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		25CE8E7F22AF033F00BE510C /* HeroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewCell.swift; sourceTree = "<group>"; };
+		25CE8E8222AF247F00BE510C /* ViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		25CE8E5F22AE846F00BE510C /* ComicVineTableViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				25CE8E8122AF246900BE510C /* Extensions */,
 				25CE8E7C22AEB8E400BE510C /* Managers */,
 				25CE8E7722AE85A000BE510C /* Resources */,
 				25CE8E7422AE84A500BE510C /* Views */,
@@ -117,6 +120,14 @@
 				25CE8E7D22AEB90300BE510C /* Fetcher.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		25CE8E8122AF246900BE510C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				25CE8E8222AF247F00BE510C /* ViewController+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +208,7 @@
 				25CE8E7E22AEB90300BE510C /* Fetcher.swift in Sources */,
 				25CE8E8022AF033F00BE510C /* HeroViewCell.swift in Sources */,
 				25CE8E7B22AE87E400BE510C /* HeroesTableViewController.swift in Sources */,
+				25CE8E8322AF247F00BE510C /* ViewController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

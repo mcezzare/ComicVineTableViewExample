@@ -46,7 +46,9 @@ class HeroesTableViewController:UIViewController,UITableViewDelegate,UITableView
     
     // MARK: Delegates
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let detailViewController = self.storyboard?.instantiateViewController(withIdentifier: "DetailHeroViewScene") as! HeroDetailViewController
+        detailViewController.hero = self.heroes[indexPath.row]
+        self.navigationController?.pushViewController(detailViewController, animated: true)
     }
     
 }

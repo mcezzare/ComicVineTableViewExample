@@ -30,10 +30,22 @@ class HeroDetailViewController: UIViewController {
         self.heroNameLabel.text =  self.hero.heroName
         self.personNameLabel.text = self.hero.personName
         self.basicInfoTextView.text = self.hero.basicInfo
-        //TODO: Load Image
+        getImage(urlPicture: self.hero.pictureUrl)
     }
     
+    func getImage(urlPicture:String){
+        let url = URL(string: urlPicture)
+        let data = try? Data(contentsOf: url!)
+        if let imageData = data {
+            let image = UIImage(data: imageData)
+            self.imageView!.image = image
+        }
+    }
     
+    @IBAction func buttonPressed(_ sender: Any){
+        let fullURL = "\(Fetcher.baseUrlImages)\(self.hero.profileUrl)"
+        openWithSafari(fullURL)
+    }
     
 }
 

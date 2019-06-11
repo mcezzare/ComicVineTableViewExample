@@ -92,6 +92,6 @@ Original source of information and images: [ComicVine](https://comicvine.gamespo
 
 ## Some Notes
 
-Thanks to all the contributors and maintainers of this website. I am sure that it is one of the best and most complete references for lovers of comics ever made.
+Thanks to all the contributors and maintainers of the ComicVine website. I am sure that it is one of the best and most complete references for lovers of comics ever made.
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>

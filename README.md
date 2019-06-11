@@ -1,5 +1,7 @@
 # ComicVineTableViewExample
 
+A project designed to demonstrate a video lesson on building iOS applications.
+
 - [ComicVineTableViewExample](#comicvinetableviewexample)
   * [Objective](#objective)
   * [YouTube Video](#youtube-video)
